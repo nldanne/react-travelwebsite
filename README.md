@@ -14,7 +14,15 @@ The website can be found on [Netlify](https://nostalgic-hopper-ff2f23.netlify.ap
 
 
 ## Snapshots from the website
-![Landing page - Hero Section](https://github.com/nldanne/react-travelwebsite/blob/master/docs/desktop_view.jpg)
+**Landing page - Hero Section**
+![Landing page, Hero Section](https://github.com/nldanne/react-travelwebsite/blob/master/docs/desktop_view.jpg)
+
+
+**Landing page - Destinations section**
+![Destinations section on the landing page](https://github.com/nldanne/react-travelwebsite/blob/master/docs/destinations.jpg)
+
+**Landing page + Menu - Mobile view**
+![Landing page, mobile view](https://github.com/nldanne/react-travelwebsite/blob/master/docs/mobile_view.jpg)  ![Mobile view of the menu](https://github.com/nldanne/react-travelwebsite/blob/master/docs/menu_mobile_view.jpg)
 
 
 ## Status of the project
