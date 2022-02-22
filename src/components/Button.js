@@ -10,7 +10,7 @@ const SIZES = ['btn--medium', 'btn--large'];
 export const Button = ({
   children, 
   type, 
-  oncClick, 
+  onClick, 
   buttonStyle, 
   buttonSize
 }) => {
@@ -23,7 +23,7 @@ export const Button = ({
     <Link to='/sign-up' className='btn-mobile'>
       <button
       className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-      oncClick={oncClick}
+      onClick={onClick}
       type={type}
       >
         { /* whatever you put inside this component, it will render it via 'children 'prop*/ }

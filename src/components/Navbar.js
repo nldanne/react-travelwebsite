@@ -7,7 +7,7 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
-  const handleClick = () => setClick(!click); //switches the useState value false to true, true to false
+  const handleClick = () => setClick(!click); 
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
@@ -19,7 +19,6 @@ function Navbar() {
   };
 
   useEffect(() => {
-    // doesn't show the sign up button on each refresh
     showButton();
   }, []);
 
@@ -30,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRAVL <i class="fab fa-gripfire"></i>
+            TRAVL <i className="fab fa-gripfire"></i>
           </Link>
 
           <div className='menu-icon' onClick={ handleClick }>
