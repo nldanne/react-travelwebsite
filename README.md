@@ -47,5 +47,5 @@ Currently the website consists of the following being completed:
 
 
 ## Sources
-This project was inspired by my love for travelling and a React Website tutorial by [briancodex](https://github.com/briancodex)
+This project was inspired by my love for travelling and a React Website tutorial by [briancodex](https://github.com/briancodex).
 Additionally, the documentation on [React Js](https://reactjs.org/), [React Router V6](https://reactrouter.com/docs/en/v6/getting-started/overview) and [Media Query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) was extremely useful in this project.
