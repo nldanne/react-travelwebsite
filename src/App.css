@@ -213,3 +213,10 @@ h4 {
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 798px) {
+  .destination-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+}
