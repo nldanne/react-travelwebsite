@@ -17,7 +17,7 @@ The website can be found on [Netlify](https://nostalgic-hopper-ff2f23.netlify.ap
 
 **Landing page - Hero Section**
 
-![Landing page, Hero Section](https://github.com/nldanne/react-travelwebsite/blob/master/docs/desktop_view.jpg)
+![Landing page, Hero Section](https://github.com/nldanne/react-travelwebsite/blob/master/docs/landing_desktop_new.jpg)
 
 
 **Landing page - Destinations section**
@@ -25,9 +25,9 @@ The website can be found on [Netlify](https://nostalgic-hopper-ff2f23.netlify.ap
 ![Destinations section on the landing page](https://github.com/nldanne/react-travelwebsite/blob/master/docs/destinations.jpg)
 
 
-**Landing page + Menu - Mobile view**
+**Sign Up**
 
-<img src="https://github.com/nldanne/react-travelwebsite/blob/master/docs/mobile_view.jpg" alt="landing page mobile view" height="400">  <img src="https://github.com/nldanne/react-travelwebsite/blob/master/docs/menu_mobile_view.jpg" alt="menu in mobiel view" height="400">
+![Sign Up Page](https://github.com/nldanne/react-travelwebsite/blob/master/docs/sign_up.png)
 
 
 ## Status of the project
@@ -39,11 +39,15 @@ Currently the website consists of the following being completed:
 * Services, Products, Sign Up pages with no content
 * Footer
 
+**version 2**
+* Services page
+* Sign Up Page
+* Destination detailed page
+
 **To Do:**
-* Design of the Services page + implementation
-* Design of the Products page + implementation
-* Design of Sign Up page with input validation + implementation
-* Design of 404 page + implementation
+* ign Up page with input validation
+* Design of 404 page
+* Dynamic data rendering by each destination
 
 
 ## Sources
