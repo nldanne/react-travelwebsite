@@ -24,6 +24,12 @@
   transition: all 0.3s ease-out;
 }
 
+.btn--cta {
+  background-color: #242424;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
 .btn--medium {
  /* padding: 8px 20x; */
   font-size: 20px;
@@ -40,6 +46,16 @@
   transition: all 0.3s ease-out;
 }
 
+.btn--primary:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn--cta:hover {
+  background-color: #fff;
+  color: #242424;
+  border: 1px solid #242424;
+}
 
 
 
