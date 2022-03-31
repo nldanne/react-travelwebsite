@@ -25,15 +25,7 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url('../public/images/img-1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
+/*
 .sign-up {
   background-image: url('../public/images/img-8.jpg');
   background-position: center;
@@ -41,4 +33,183 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+*/
+/* Destination page*/
+.destination {
+  background-image: url('../public/images/img-9.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 350px;
+
+}
+
+.destination-container {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.destination-container h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.destination-container p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: 800px;
+}
+
+.info-wrapper {
+  max-width: 800px;
+}
+
+h3 {
+  margin: 3rem 0 1.3rem 0;
+  font-size: 2.4rem;
+}
+
+h4 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.destination-container ul li {
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.booking-container {
+  width: 350px;
+  height: fit-content;
+  padding: 1.4rem;
+  border: 2px solid #242424;
+  border-radius: 5px;
+}
+
+.booking-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking-info h5 {
+  font-size: 1.2rem;
+}
+
+.booking-info .price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.btn-book {
+  padding: 12px 26px;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #242424;
+  color: #fff;
+  background-color: #242424;
+}
+
+.btn-book:hover {
+  background-color: #fff;
+  color: #242424;
+}
+
+/*Sign up Page*/
+.form-modal__container {
+  margin: 0 0.5rem;
+}
+.form-modal__wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+  height: 500px;
+  margin: 4rem auto;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 350px;
+  height: inherit;
+  border-radius: 10px 0 0 10px;
+}
+
+.sign-up > img {
+  object-fit: cover;
+  width: auto;
+  height: auto;
+}
+
+.sign-up__container {
+  background: #fff;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+  justify-content: center;
+}
+
+.sign-up__container > h2 {
+ font-size: 3rem;
+ margin-bottom: 2rem;
+}
+
+.sign-up__form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.sign-up__form > label {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+
+.sign-up__form > input {
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+}
+
+.sign-up__form .btn-sign {
+  padding: 12px 26px;
+  width: fit-content;
+  margin: 1.5rem auto 0;
+  border-radius: 2px;
+  font-size: 20px;
+  border: 1px solid #242424;
+  background-color: #242424;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign-up__form .btn-sign:hover {
+  color: #242424;
+  background-color: #fff;
+}
+
+.have-account {
+  font-size: 0.9rem;
+  color: #5a5a5a;
+}
+
+.have-account span {
+  text-decoration: underline;
+  cursor: pointer;
 }
